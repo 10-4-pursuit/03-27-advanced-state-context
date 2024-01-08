@@ -1,0 +1,30 @@
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header i {
+    color: white;
+}
+
+header .cart-preview {
+    position: relative;
+}
+
+.cart-preview span {
+    position: absolute;
+    padding: 2px;
+    border-radius: 100%;
+    background-color: #F33;
+    color: white;
+    font-size: 0.6em;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -50%;
+    bottom: 0;
+}
