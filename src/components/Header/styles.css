@@ -1,5 +1,5 @@
 header {
-    background-color: blue;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     padding: 20px;
@@ -17,7 +17,7 @@ header .cart-preview {
     position: absolute;
     padding: 2px;
     border-radius: 100%;
-    background-color: #F33;
+    background-color:gray;
     color: white;
     font-size: 0.6em;
     width: 10px;

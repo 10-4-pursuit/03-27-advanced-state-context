@@ -12,6 +12,7 @@ function App() {
       <CartProvider>
         <div className="App">
           <Header />
+        
           <main>
             <Routes>
               <Route path="/" element={<ProductsPage />} />

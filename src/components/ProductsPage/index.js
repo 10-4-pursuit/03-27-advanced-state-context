@@ -6,17 +6,17 @@ const ProductsPage = () => {
     {
       id: 1,
       name: "Coffee",
-      price: '5.00',
+      price: '$5.00',
     },
     {
       id: 2,
       name: "Cigars",
-      price: '20.00',
+      price: '$20.00',
     },
     {
       id: 3,
       name: "Wine",
-      price: '10.00',
+      price: '$10.00',
     },
   ]);
 

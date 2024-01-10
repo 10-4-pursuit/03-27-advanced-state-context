@@ -2,9 +2,17 @@ header {
   background-color: gray;
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 10px;
 }
 
 header i {
   color: white;
+  padding: 5px 5px 5px 20px;
+}
+
+main {
+  padding: 10px;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }

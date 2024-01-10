@@ -10,6 +10,7 @@ const Header = () => {
 
   return (
     <header>
+     
       <div className="cart-preview">
         <Link to="/">
           <i className="fa-solid fa-shopping-bag"></i>
