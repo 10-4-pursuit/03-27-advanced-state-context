@@ -6,7 +6,9 @@ function CartItem ({ item }) {
 
     return (
         <div>
-            <p>{item.name} : ({item.quantity})</p>
+            <p>{item.name}</p> 
+            <p>ID: {item.id}</p>
+            <p>Quantity: {item.quantity}</p>
             <button onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
             <button onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
             <button onClick={() => removeItemFromCart(item.id)}>Remove</button>
