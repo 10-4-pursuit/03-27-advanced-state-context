@@ -23,10 +23,12 @@ function App() {
             <AddToCartButton item={{ id: 2, name: "Item 2" }} />
             <AddToCartButton item={{ id: 3, name: "Item 3" }} />
             <AddToCartButton item={{ id: 4, name: "Item 4" }} />
+            <br />
             <CartItem item={{ id: 1, name: "Item 1", quantity: 1 }} />
             <CartItem item={{ id: 2, name: "Item 2", quantity: 1 }} />
             <CartItem item={{ id: 3, name: "Item 3", quantity: 1 }} />
             <CartItem item={{ id: 4, name: "Item 4", quantity: 1 }} />
+            <br />
           </div>
         </ShoppingCartProvider>
         <a
